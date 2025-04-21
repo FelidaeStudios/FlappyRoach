@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1745251062",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\ERAU\\SIM455\\MachineLearningDev\\venv\\Scripts\\mlagents-learn --run-id=flappyBird3",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.6.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1745251081"
+    },
+    "total": 19.108885400000002,
+    "count": 1,
+    "self": 0.003561800000003501,
+    "children": {
+        "run_training.setup": {
+            "total": 0.024334899999999937,
+            "count": 1,
+            "self": 0.024334899999999937
+        },
+        "TrainerController.start_learning": {
+            "total": 19.0809887,
+            "count": 1,
+            "self": 0.0003372000000041453,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 19.080642599999997,
+                    "count": 1,
+                    "self": 19.080642599999997
+                },
+                "trainer_threads": {
+                    "total": 7.999999986907369e-07,
+                    "count": 1,
+                    "self": 7.999999986907369e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 8.09999999873412e-06,
+                    "count": 1,
+                    "self": 8.09999999873412e-06
+                }
+            }
+        }
+    }
+}
